@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Simple home | Как управляем</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="libs/swiper.min.css">
+</head>
+
+<body>
+	<div class="popup-container">
+	<div class="popup-success">
+		<h2 class="popup-success__title">
+			Благодарим за заявку!
+		</h2>
+		<div class="popup-success__text">
+			Менеджер свяжется с вами в течении 15 минут
+		</div>
+	</div>
+	<div class="popup">
+		<div class="popup__header">
+			<img class="popup__close" src="img/close.svg" alt="закрыть">
+		</div>
+		<div class="popup__body">
+			<form action="#" class="popup__form form">
+				<h3 class="form__title">
+					Оставить заявку
+				</h3>
+				<div class="form__body">
+					<div class="form__info">
+						После подачи заявки с Вами свяжется наш менеджер
+					</div>
+					<label>
+						<input type="text" class="form__input" placeholder="Имя" name="name">
+					</label>
+					<label>
+						<input type="tel" class="form__input" data-validate-field="tel" name="phone">
+					</label>
+					<label>
+						<input type="email" class="form__input" placeholder="Почта" name="email">
+					</label>
+
+					<label class="form__checkbox">
+						<input type="checkbox" data-validate-field="checkbox" name="agreement">
+						<span>Соглашаюсь на &nbsp;<a href="#"> обработку персональных данных</a></span>
+					</label>
+					<input class="form__btn-submit" type="submit" value="Отправить">
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	<header class="header">
+		<div class="container header__container">
+			<div class="header__logo">
+				<a href="index.html">
+					<img src="img/logo.png" alt="Simple home">
+				</a>
+			</div>
+			<nav class="header__menu menu">
+				<ul class="menu__list">
+					<li class="menu__item"><a href="about.html" class="menu__link">О нас</a></li>
+					<li class="menu__item"><a href="what_manager.html" class="menu__link">Чем управляем</a></li>
+					<li class="menu__item"><a href="how_manager.html" class="menu__link">Как управляем</a></li>
+					<li class="menu__item"><a href="actions.html" class="menu__link">Сценарии</a></li>
+					<li class="menu__item"><a href="objects.html" class="menu__link">Наши объекты</a></li>
+					<li class="menu__item"><a href="contacts.html" class="menu__link">Контакты</a></li>
+				</ul>
+			</nav>
+			<div class="header__contacts contacts">
+				<div class="contacts__city">
+					<span>Москва</span> 
+					<a href="tel:+78123132453">
+						+7(812)313-24-53
+					</a>					
+				</div>
+				<div class="contacts__city">
+					<span>Санкт Петербург</span>
+					<a href="tel:+78123132453">
+						+7(812)313-24-53
+					</a>		
+				</div>
+			</div>
+			<button class="header__btn btn--callback">
+				Заказать звонок
+			</button>
+		</div>
+	</header>
+	<main class="main">
+		<section class="main__hero hero">
+			<div class="container hero__container">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<h1 class="hero__title">
+								Раздел
+								<span class="hero__subtitle">
+									Как <br> управляем
+								</span>
+							</h1>
+						</div>
+						<div class="swiper-slide">
+							<h1 class="hero__title">
+								Раздел
+								<span class="hero__subtitle">
+									Как <br> управляем
+								</span>
+							</h1>
+						</div>
+						<div class="swiper-slide">
+							<h1 class="hero__title">
+								Самый Умный дом
+								<span class="hero__subtitle">
+									премиум <br> класса
+								</span>
+							</h1>
+						</div>
+						<div class="swiper-slide">
+							<h1 class="hero__title">
+								Умный home
+								<span class="hero__subtitle">
+									премиум <br> класса
+								</span>
+							</h1>
+						</div>
+					</div>
+					<!-- Add Scrollbar -->
+					<div class="swiper-pagination">
+
+					</div>
+				</div>
+
+				<div class="hero__btn-down">
+
+				</div>
+				<div class="hero__awards">
+					<ul>
+						<li class="hero__award">
+							<img src="img/award1.png" alt="Рекорды рынка недвижимости">
+						</li>
+						<li class="hero__award">
+							<img src="img/award2.png" alt="best office awards">
+						</li>
+						<li class="hero__award">
+							<img src="img/award3.png" alt="intergration awards">
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="main__info info">
+			<div class="info__container">
+				<div class="info__advantages">
+					<p>
+						Умный дом увеличит престиж, комфорт, безопасность вашего дома
+					</p>
+					<button class="info__btn">
+						посмотрите наши объекты
+					</button>
+				</div>
+				<div class="info__indicators indicators">
+					<p>
+						<span class="indicators__numeral">330</span>
+						+
+						<span class="indicators__text">
+							Выполнили объектов
+						</span>
+					</p>
+					<p>
+						<span class="indicators__numeral">1<span>млн</span></span>
+						+
+						<span class="indicators__text">
+							Площади автоматизировали
+						</span>
+					</p>
+					<p>
+						<span class="indicators__numeral">120</span>
+						+
+						<span class="indicators__text">
+							Клиентов остались довольны
+						</span>
+					</p>
+				</div>
+				<div class="info__background">
+					14 лет опыта
+				</div>
+			</div>
+		</section>
+		<section class="main__cost cost">
+			<div class="cost__container">
+				<h2 class="cost__title">
+					Узнайте стоимость
+					<span class="cost__subtitle">Умного дома</span>
+					<span class="cost__text">Для вашего помещения</span>
+				</h2>
+				<form class="cost__form form">
+					<h3 class="form__title">
+						Мы свяжемся с вами
+					</h3>
+					<div class="form__body">
+						<div class="form__info">
+							Ваш проект будет вести персональный менеджер <br> «Умный дом» не мешает реализации любого <br>
+							дизайн-проект
+						</div>
+						<label>
+							<input type="text" class="form__input" placeholder="Имя" name="name">
+						</label>
+						<label>
+							<input type="tel" class="form__input" data-validate-field="tel" name="phone">
+						</label>
+						<label>
+							<input type="email" class="form__input" placeholder="Почта" name="email">
+						</label>
+	
+
+						<label class="form__checkbox">
+							<input type="checkbox" data-validate-field="checkbox" name="agreement">
+							<span>Соглашаюсь на &nbsp;<a href="#"> обработку персональных данных</a></span>
+						</label>
+						<input class="form__btn-submit" type="submit" value="Отправить">
+					</div>
+				</form>
+			</div>
+		</section>
+	</main>
+	<script src="libs/swiper.min.js"></script>
+	<script src="libs/inputmask.min.js"></script>
+	<script src="libs/just-validate.min.js"></script>
+	<script src="js/script.min.js"></script>
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+			loop: true,
+			effect: 'fade',
+			autoplay: {
+				delay: 2500,
+				disableOnInteraction: false,
+			},
+			pagination: {
+				el: '.swiper-pagination',
+				type: 'progressbar',
+				clickable: true
+			}
+		});
+	</script>
+</body>
+
+</html>
